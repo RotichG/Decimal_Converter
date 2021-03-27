@@ -38,16 +38,19 @@ public class Lorenzo {
             result[0] = 0;
         }else if(num>1){
             
+           while(num>1){
              rem = num % 16;
             
              if(rem<10){
-                 result[i] = (char) rem;
+                 result[i] = (char) (rem+48);
                  i++;
              }
              else{
-                 result[i]= (char) rem;
+                 result[i]= (char) (rem+55);
                  i++;
              }
+             
+             num= num/16;}
         }
          
           for (int j = result.length-1; j >= 0; j--){
