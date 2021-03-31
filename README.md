@@ -33,6 +33,6 @@ It acheves this by using four functions;
   iii)IntToBinary(double x)
   This function converts the integer part to binary and stores the binary values in an array which is then read backwards to produce correct output. 
   iv)FractionToBinary( double x)
-  This function converts the decimal part of the random number generated to binary and stores the binary values in an array which is then read to produce the correct output.
+  This function converts the decimal part of the random number generated to binary and stores the binary values in an array which is then read to produce the correct output
   
   
