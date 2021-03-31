@@ -1,6 +1,11 @@
 # Decimal_Converter
-Program that converts decimal to binary and hexadecimal as done by Group 3
+Members:
+ICS B 113342 Rotich Gloria 
+ICS B 120821 Laura Cherop
+ICS B 123011 Owen Otieno
+ICS B 100237 Kwesi Essuman
 
+Program that converts decimal to binary and hexadecimal as done by Group 3
 
 a)
 The toBinarytoHex.java file answers part a of the question and successfully converts a decimal number to Binary as shown on the screenshots attached in the images folder.
