@@ -8,10 +8,7 @@ package lorenzo;
 import static java.lang.Integer.parseInt;
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author LauraC
- */
+
 public class lorenzoOUT extends javax.swing.JFrame {
 
     /**
