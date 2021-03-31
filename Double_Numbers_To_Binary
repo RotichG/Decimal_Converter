@@ -40,8 +40,7 @@ public class Lorenzo2 {
         return b1;
     }
     
-   public void IntToBinary(double x) //Function to convert the integer part to Binary
-   {
+   public void IntToBinary(double x) //Function to convert the integer part to Binary{
        String doubleAsString = String.valueOf(x);
         int indexOfDecimal = doubleAsString.indexOf(".");
         String a = doubleAsString.substring(0, indexOfDecimal); //a stores the integer part of the number
@@ -56,7 +55,7 @@ public class Lorenzo2 {
                for(int i = 0; i<resulty.length;i++){
                    resulty[i] = a1%2;
                    a1 = a1/2;
-               }
+    }
         }
         
         for (int j = resulty.length-1; j >= 0; j--){//For loop to read the values backwards
